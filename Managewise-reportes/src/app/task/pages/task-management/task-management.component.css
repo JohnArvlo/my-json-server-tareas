@@ -1,0 +1,27 @@
+.table-wrapper {
+  width: 1024px;
+  margin: 50px auto;
+}
+
+table {
+  width: 100%;
+}
+
+tr.editable-row {
+  background-color: lightgray;
+}
+
+mat-icon{
+  color: darkorange;
+}
+
+th{
+  background-color: black !important;
+  color: white;
+  text-align: center;
+}
+
+button {
+  margin: 16px 8px;
+  color: black !important;
+}

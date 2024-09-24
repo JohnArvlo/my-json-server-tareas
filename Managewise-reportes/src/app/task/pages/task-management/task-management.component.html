@@ -1,0 +1,68 @@
+<!-- Student catalogue -->
+<div class="table-wrapper">
+  <h3>{{ 'title.section' | translate }}</h3>
+
+  <button mat-raised-button (click)="onAddItem()" >
+    <mat-icon>add</mat-icon> {{ 'title.add' | translate }}
+  </button>
+
+  <!-- Data Table -->
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8"
+         matSort matSortActive="streetAddress" matSortDirection="asc">
+
+    <ng-container matColumnDef="id">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header> {{ 'task.id' | translate }} </th>
+      <td *matCellDef="let element" mat-cell>{{ element.id }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="title">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>{{ 'task.title' | translate }}</th>
+      <td *matCellDef="let element" mat-cell>{{ element.title }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="status">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>{{ 'task.status' | translate }}</th>
+      <td *matCellDef="let element" mat-cell>{{ element.status }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="description">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>{{ 'task.description' | translate }}</th>
+      <td *matCellDef="let element" mat-cell>{{ element.description }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="assigned_to">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>{{ 'task.assigned_to' | translate }}</th>
+      <td *matCellDef="let element" mat-cell>{{ element.assigned_to }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="priority">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>{{ 'task.priority' | translate }}</th>
+      <td *matCellDef="let element" mat-cell>{{ element.priority }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="story_points">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>{{ 'task.story_points' | translate }}</th>
+      <td *matCellDef="let element" mat-cell>{{ element.story_points }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="sprint">
+      <th *matHeaderCellDef mat-header-cell mat-sort-header>{{ 'task.sprint' | translate }}</th>
+      <td *matCellDef="let element" mat-cell>{{ element.sprint }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="actions">
+      <th *matHeaderCellDef mat-header-cell> {{ 'task.actions' | translate }}</th>
+      <td *matCellDef="let element" mat-cell>
+        <a (click)="onEditItem(element)" href="javascript:void(0)"><mat-icon>edit</mat-icon></a>
+        <a (click)="onDeleteItem(element)" href="javascript:void(0)"><mat-icon>delete</mat-icon></a>
+      </td>
+    </ng-container>
+
+    <tr *matHeaderRowDef="displayedColumns" mat-header-row></tr>
+    <tr *matRowDef="let row; columns:displayedColumns" [ngClass]="{'editable-row': taskData.id === row.id }" mat-row></tr>
+  </table>
+  <!-- Paginator child component-->
+  <mat-paginator [pageSizeOptions]="[10, 15, 20]" [pageSize]="10" showFirstLastButtons></mat-paginator>
+
+
+</div>

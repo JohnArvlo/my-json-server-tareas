@@ -1,0 +1,20 @@
+{
+  "title":{
+    "section": "Gestión de tareas",
+    "add": "Agregar tarea"
+  },
+  "task": {
+    "id": "No.",
+    "title": "Título",
+    "status": "Estado",
+    "description": "Descripción",
+    "assigned_to": "Asignado a",
+    "priority": "Prioridad",
+    "story_points": "Puntos de historia",
+    "sprint": "Sprint",
+    "actions": "Acciones",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  }
+}
+

@@ -1,0 +1,47 @@
+<form (submit)="onSubmit()" #resourceForm='ngForm' class="form-row">
+  <mat-dialog-content>
+    <button mat-icon-button mat-dialog-close class="dialog-button-close">
+      <mat-icon>close</mat-icon>
+    </button>
+    <h4 mat-dialog-title>{{ 'title.add' | translate }}</h4>
+    <mat-form-field>
+      <input matInput placeholder="{{ 'task.title' | translate }}" name="title" required [(ngModel)]="task.title">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="{{ 'task.status' | translate }}" name="status" required [(ngModel)]="task.status">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="{{ 'task.description' | translate }}" name="description" required [(ngModel)]="task.description">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="{{ 'task.assigned_to' | translate }}" name="assignedTo" required [(ngModel)]="task.assigned_to">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="{{ 'task.priority' | translate }}" name="priority" required [(ngModel)]="task.priority">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="number" placeholder="{{ 'task.story_points' | translate }}" name="storyPoints" required [(ngModel)]="task.story_points">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="number" placeholder="{{ 'task.sprint' | translate }}" name="sprint" required [(ngModel)]="task.sprint">
+    </mat-form-field>
+
+
+
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    @if (editMode === true) {
+      <button mat-raised-button color="primary">
+        <mat-icon>update</mat-icon> Update
+      </button>
+    }
+    @else {
+      <button mat-raised-button color="primary">
+        <mat-icon>save</mat-icon> {{ 'task.save' | translate }}
+      </button>
+    }
+    <button mat-raised-button color="warn" mat-dialog-close>
+      <mat-icon>cancel</mat-icon> {{ 'task.cancel' | translate }}
+    </button>
+  </mat-dialog-actions>
+</form>

@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Create login component",
+      "status": "Pending",
+      "description": "Develop the login component with credential validation and redirection to the main page after a successful login.",
+      "assigned_to": "Pedro Martínez",
+      "priority": "High",
+      "story_points": 3,
+      "sprint": 2
+    },
+    {
+      "id": 2,
+      "title": "Optimize image loading",
+      "status": "In progress",
+      "description": "Implement a lazy loading system for images on the website to improve page performance.",
+      "assigned_to": "Laura Gómez",
+      "priority": "Medium",
+      "story_points": 5,
+      "sprint": 3
+    },
+    {
+      "id": 3,
+      "title": "Fix authentication error",
+      "status": "Pending",
+      "description": "Resolve the bug that prevents users from authenticating with Google.",
+      "assigned_to": "Juan Pérez",
+      "priority": "High",
+      "story_points": 3,
+      "sprint": 2
+    },
+    {
+      "id": 4,
+      "title": "Redesign dashboard buttons",
+      "status": "Completed",
+      "description": "Update the dashboard buttons to improve usability.",
+      "assigned_to": "Ana Sánchez",
+      "priority": "Low",
+      "story_points": 2,
+      "sprint": 1
+    },
+    {
+      "id": 5,
+      "title": "Add integration with external API",
+      "status": "In progress",
+      "description": "Connect the application with the external payment API to receive notifications.",
+      "assigned_to": "Carlos Ruiz",
+      "priority": "Medium",
+      "story_points": 8,
+      "sprint": 1
+    },
+    {
+      "id": 6,
+      "title": "Create unit tests for user module",
+      "status": "Pending",
+      "description": "Write unit tests for the user creation and deletion module.",
+      "assigned_to": "Luis Fernández",
+      "priority": "High",
+      "story_points": 5,
+      "sprint": 2
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title":{
+    "section": "Task Management",
+    "add": "Add task"
+  },
+  "task": {
+      "id": "No.",
+      "title": "Title",
+      "status": "Status",
+      "description": "Description",
+      "assigned_to": "Assigned to",
+      "priority": "Priority",
+      "story_points": "Story points",
+      "sprint": "Sprint",
+      "actions": "Actions",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+}
+
