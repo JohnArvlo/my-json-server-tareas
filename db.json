@@ -1,64 +1,64 @@
 {
-  "tareas": [
+  "tasks": [
     {
-      "id_tarea": "1",
-      "titulo": "Crear componente de login",
-      "estado": "Pendiente",
-      "descripcion": "Desarrollar el componente de login con validación de credenciales y redirección a la página principal después de un inicio de sesión exitoso.",
-      "encargado": "Pedro Martínez",
-      "prioridad": "Alta",
+      "id": 1,
+      "title": "Create login component",
+      "status": "Pending",
+      "description": "Develop the login component with credential validation and redirection to the main page after a successful login.",
+      "assigned_to": "Pedro Martínez",
+      "priority": "High",
       "story_points": 3,
-      "sprint": "Sprint 2"
+      "sprint": 2
     },
     {
-      "id_tarea": "2",
-      "titulo": "Optimizar la carga de imágenes",
-      "estado": "En progreso",
-      "descripcion": "Implementar un sistema de carga diferida (lazy load) para las imágenes en el sitio web con el objetivo de mejorar el rendimiento de la página.",
-      "encargado": "Laura Gómez",
-      "prioridad": "Media",
+      "id": 2,
+      "title": "Optimize image loading",
+      "status": "In progress",
+      "description": "Implement a lazy loading system for images on the website to improve page performance.",
+      "assigned_to": "Laura Gómez",
+      "priority": "Medium",
       "story_points": 5,
-      "sprint": "Sprint 3"
+      "sprint": 3
     },
     {
-      "id_tarea": "3",
-      "titulo": "Corregir error en autenticación",
-      "estado": "Pendiente",
-      "descripcion": "Resolver el bug que impide a los usuarios autenticarse con Google.",
-      "encargado": "Juan Pérez",
-      "prioridad": "Alta",
+      "id": 3,
+      "title": "Fix authentication error",
+      "status": "Pending",
+      "description": "Resolve the bug that prevents users from authenticating with Google.",
+      "assigned_to": "Juan Pérez",
+      "priority": "High",
       "story_points": 3,
-      "sprint": "Sprint 2"
+      "sprint": 2
     },
     {
-      "id_tarea": "4",
-      "titulo": "Rediseñar botones del dashboard",
-      "estado": "Completada",
-      "descripcion": "Actualizar los botones del dashboard para mejorar la usabilidad.",
-      "encargado": "Ana Sánchez",
-      "prioridad": "Baja",
+      "id": 4,
+      "title": "Redesign dashboard buttons",
+      "status": "Completed",
+      "description": "Update the dashboard buttons to improve usability.",
+      "assigned_to": "Ana Sánchez",
+      "priority": "Low",
       "story_points": 2,
-      "sprint": "Sprint 1"
+      "sprint": 1
     },
     {
-      "id_tarea": "5",
-      "titulo": "Añadir integración con API externa",
-      "estado": "En progreso",
-      "descripcion": "Conectar la aplicación con la API de pagos externos para recibir notificaciones.",
-      "encargado": "Carlos Ruiz",
-      "prioridad": "Media",
+      "id": 5,
+      "title": "Add integration with external API",
+      "status": "In progress",
+      "description": "Connect the application with the external payment API to receive notifications.",
+      "assigned_to": "Carlos Ruiz",
+      "priority": "Medium",
       "story_points": 8,
-      "sprint": "Sprint 1"
+      "sprint": 1
     },
     {
-      "id_tarea": "6",
-      "titulo": "Crear test unitarios para módulo de usuario",
-      "estado": "Pendiente",
-      "descripcion": "Escribir pruebas unitarias para el módulo de creación y eliminación de usuarios.",
-      "encargado": "Luis Fernández",
-      "prioridad": "Media",
+      "id": 6,
+      "title": "Create unit tests for user module",
+      "status": "Pending",
+      "description": "Write unit tests for the user creation and deletion module.",
+      "assigned_to": "Luis Fernández",
+      "priority": "Medium",
       "story_points": 5,
-      "sprint": "Sprint 2"
+      "sprint": 2
     }
   ]
 }
