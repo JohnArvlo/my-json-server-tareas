@@ -1,0 +1,64 @@
+{
+  "tareas": [
+    {
+      "id_tarea": "1",
+      "titulo": "Crear componente de login",
+      "estado": "Pendiente",
+      "descripcion": "Desarrollar el componente de login con validación de credenciales y redirección a la página principal después de un inicio de sesión exitoso.",
+      "encargado": "Pedro Martínez",
+      "prioridad": "Alta",
+      "story_points": 3,
+      "sprint": "Sprint 2"
+    },
+    {
+      "id_tarea": "2",
+      "titulo": "Optimizar la carga de imágenes",
+      "estado": "En progreso",
+      "descripcion": "Implementar un sistema de carga diferida (lazy load) para las imágenes en el sitio web con el objetivo de mejorar el rendimiento de la página.",
+      "encargado": "Laura Gómez",
+      "prioridad": "Media",
+      "story_points": 5,
+      "sprint": "Sprint 3"
+    },
+    {
+      "id_tarea": "3",
+      "titulo": "Corregir error en autenticación",
+      "estado": "Pendiente",
+      "descripcion": "Resolver el bug que impide a los usuarios autenticarse con Google.",
+      "encargado": "Juan Pérez",
+      "prioridad": "Alta",
+      "story_points": 3,
+      "sprint": "Sprint 2"
+    },
+    {
+      "id_tarea": "4",
+      "titulo": "Rediseñar botones del dashboard",
+      "estado": "Completada",
+      "descripcion": "Actualizar los botones del dashboard para mejorar la usabilidad.",
+      "encargado": "Ana Sánchez",
+      "prioridad": "Baja",
+      "story_points": 2,
+      "sprint": "Sprint 1"
+    },
+    {
+      "id_tarea": "5",
+      "titulo": "Añadir integración con API externa",
+      "estado": "En progreso",
+      "descripcion": "Conectar la aplicación con la API de pagos externos para recibir notificaciones.",
+      "encargado": "Carlos Ruiz",
+      "prioridad": "Media",
+      "story_points": 8,
+      "sprint": "Sprint 1"
+    },
+    {
+      "id_tarea": "6",
+      "titulo": "Crear test unitarios para módulo de usuario",
+      "estado": "Pendiente",
+      "descripcion": "Escribir pruebas unitarias para el módulo de creación y eliminación de usuarios.",
+      "encargado": "Luis Fernández",
+      "prioridad": "Media",
+      "story_points": 5,
+      "sprint": "Sprint 2"
+    }
+  ]
+}
